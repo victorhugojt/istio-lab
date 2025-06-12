@@ -1,0 +1,25 @@
+# Istio installation directory
+istio-*/
+
+# Minikube binaries
+minikube-*
+**/minikube-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Kubernetes
+*.log
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+*.temp 
