@@ -1,1 +1,19 @@
 performance test to main components to simulata traffic
+
+Concepts (Policies, MTls, Virtula Service, Dr ...)
+
+TRaffic routing and new icons in Kiali (Details of DR and VS)
+
+Jaeger (traces-Spans) Review one 
+- Pair Kiali Objects with Jaeger ones
+- change the lookback time to close range and catch the last one
+- colapse spans - spans details
+- Propagate Headers is necessary in the last versions?
+
+Grafana
+- Check infra istio
+- Others
+
+Future
+- Others SErvice Mesh
+- Istio and Otel?
