@@ -11,7 +11,10 @@ Jaeger (traces-Spans) Review one
 - Propagate Headers is necessary in the last versions?
 
 Grafana
-- Check infra istio
+- Check infra istio (Home->Istio Folder) 
+- >> Istio Service Dashboard & Istio Workload Dashboard & Istio Service Mest (Master)
+- Go to position tracker incomning
+- Istio Performance Dashboard
 - Others
 
 Future

@@ -27,11 +27,14 @@ minikube ip
 
 http://$(minikube ip):30080/ # Application
 
+http://192.168.49.2:30080/ # Application
+
 # check Kiali
 
 kubectl get svc -n istio-system
 
 http://$(minikube ip):31000/ # Kiali
+http://192.168.49.2:31000/ # Kiali
 
 http://$(minikube ip):31001/ # Jeager
 
