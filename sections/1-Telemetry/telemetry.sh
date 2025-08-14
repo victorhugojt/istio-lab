@@ -1,6 +1,6 @@
 minikube delete
 
-minikube start --memory 4096 --cpus 4
+minikube start --memory 8192 --cpus 4
 
 # Apply in the order of the files
 
@@ -37,11 +37,23 @@ http://$(minikube ip):31000/ # Kiali
 http://192.168.49.2:31000/ # Kiali
 
 http://$(minikube ip):31001/ # Jeager
+http://192.168.49.2:31001/ # Jeager
 
 http://$(minikube ip):31002/ # Grafana
+http://192.168.49.2:31002/ # Grafana
+
 
 
 
 # At this point we do not include any complex istion configs like virtual services, 
 # destination rules, etc. Becaus is not for this demo
 
+kubectl get virtualservices
+
+kubectl get destinationrules
+
+kubectl get gateways
+
+kubectl get pods -n istio-system
+
+kubectl get services -n istio-system
